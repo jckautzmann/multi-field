@@ -237,7 +237,7 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "image1",
         "label": "Image",
         "description": "Select one or more images",
         "multi": true
