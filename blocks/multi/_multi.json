@@ -29,6 +29,14 @@
           "multi": true
         },
         {
+          "component": "text",
+          "valueType": "string",
+          "name": "image2",
+          "label": "Text",
+          "description": "Enter one or more texts",
+          "multi": true
+        },
+        {
           "component": "richtext",
           "name": "richtext",
           "value": "",
