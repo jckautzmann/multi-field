@@ -230,8 +230,8 @@
         "component": "text",
         "valueType": "string",
         "name": "image2",
-        "label": "Text",
-        "description": "Enter one or more texts",
+        "label": "Images 2",
+        "description": "Enter one or more images",
         "multi": true
       },
       {
