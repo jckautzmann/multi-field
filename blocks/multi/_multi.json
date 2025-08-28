@@ -22,6 +22,38 @@
       "id": "multi",
       "fields": [
         {
+          "component": "text",
+          "valueType": "string",
+          "name": "text",
+          "label": "Text",
+          "description": "Enter one or more texts",
+          "multi": true
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "image2",
+          "label": "Images 2",
+          "description": "Enter one or more images",
+          "multi": true
+        },
+        {
+          "component": "richtext",
+          "name": "richtext",
+          "value": "",
+          "label": "Rich Text",
+          "valueType": "string",
+          "multi": true
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image1",
+          "label": "Image",
+          "description": "Select one or more images",
+          "multi": true
+        },
+        {
           "component": "aem-tag",
           "label": "AEM Tag Picker",
           "name": "tags",
@@ -80,38 +112,6 @@
             { "name": "Option 1", "value": "option1" },
             { "name": "Option 2", "value": "option2" }
           ]
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "text",
-          "label": "Text",
-          "description": "Enter one or more texts",
-          "multi": true
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "image2",
-          "label": "Images 2",
-          "description": "Enter one or more images",
-          "multi": true
-        },
-        {
-          "component": "richtext",
-          "name": "richtext",
-          "value": "",
-          "label": "Rich Text",
-          "valueType": "string",
-          "multi": true
-        },
-        {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image1",
-          "label": "Image",
-          "description": "Select one or more images",
-          "multi": true
         },
         {
           "component": "container",
