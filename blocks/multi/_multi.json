@@ -36,8 +36,7 @@
           "component": "date-time",
           "label": "Date & Time",
           "name": "date",
-          "valueType": "date",
-          "multi": true
+          "valueType": "date"
         },
         {
           "component": "multiselect",
@@ -47,6 +46,10 @@
             {
               "name": "Highlight",
               "value": "highlight"
+            },
+            {
+              "name": "Lowlight",
+              "value": "lowlight"
             }
           ]
         },
