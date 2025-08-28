@@ -19,6 +19,7 @@
   "models": [
     {
       "id": "multi",
+      "key-value": true,
       "fields": [
         {
           "component": "aem-tag",
