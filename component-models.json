@@ -219,6 +219,74 @@
     "id": "multi",
     "fields": [
       {
+        "component": "aem-tag",
+        "label": "AEM Tag Picker",
+        "name": "tags",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "aem-content",
+        "label": "Link",
+        "multi": true
+      },
+      {
+        "component": "date-time",
+        "label": "Date & Time",
+        "name": "date",
+        "valueType": "date"
+      },
+      {
+        "component": "multiselect",
+        "name": "multiselect",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      },
+      {
+        "component": "number",
+        "name": "number",
+        "label": "Number",
+        "valueType": "number",
+        "value": 0
+      },
+      {
+        "component": "radio-group",
+        "label": "Radio Group",
+        "name": "radio",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Option 1",
+            "value": "option1"
+          },
+          {
+            "name": "Option 2",
+            "value": "option2"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "label": "Select",
+        "name": "select",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Option 1",
+            "value": "option1"
+          },
+          {
+            "name": "Option 2",
+            "value": "option2"
+          }
+        ]
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "text",
