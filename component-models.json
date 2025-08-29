@@ -345,6 +345,29 @@
             "value": ""
           }
         ]
+      },
+      {
+        "component": "container",
+        "label": "Image Container 2",
+        "description": "Select one or more images + alt text",
+        "name": "imageContainer2",
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "image",
+            "label": "Image",
+            "description": "Select Image",
+            "multi": true
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "imageAlt",
+            "label": "Alt",
+            "value": ""
+          }
+        ]
       }
     ]
   }
