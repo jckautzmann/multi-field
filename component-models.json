@@ -222,7 +222,7 @@
         "component": "text",
         "valueType": "string",
         "name": "text",
-        "label": "Text",
+        "label": "Text multi",
         "description": "Enter one or more texts",
         "multi": true
       },
@@ -230,7 +230,7 @@
         "component": "text",
         "valueType": "string",
         "name": "image2",
-        "label": "Images 2",
+        "label": "Image2 multi",
         "description": "Enter one or more images",
         "multi": true
       },
@@ -238,7 +238,7 @@
         "component": "richtext",
         "name": "richtext",
         "value": "",
-        "label": "Rich Text",
+        "label": "Richtext multi",
         "valueType": "string",
         "multi": true
       },
@@ -246,8 +246,29 @@
         "component": "reference",
         "valueType": "string",
         "name": "image1",
-        "label": "Image",
+        "label": "Image1 multi",
         "description": "Select one or more images",
+        "multi": true
+      },
+      {
+        "component": "aem-content",
+        "name": "aem-content",
+        "label": "Link multi",
+        "multi": true
+      },
+      {
+        "component": "date-time",
+        "label": "Date & Time multi",
+        "name": "dateMulti",
+        "valueType": "date",
+        "multi": true
+      },
+      {
+        "component": "number",
+        "name": "numberMulti",
+        "label": "Number Multi",
+        "valueType": "number",
+        "value": 0,
         "multi": true
       },
       {
@@ -255,12 +276,6 @@
         "label": "AEM Tag Picker",
         "name": "tags",
         "valueType": "string"
-      },
-      {
-        "component": "aem-content",
-        "name": "aem-content",
-        "label": "Link",
-        "multi": true
       },
       {
         "component": "date-time",
