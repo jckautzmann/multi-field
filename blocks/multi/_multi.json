@@ -23,6 +23,20 @@
       "fields": [
         {
           "component": "text",
+          "name": "classes_single",
+          "label": "Block Options (Single)",
+          "description": "Style your block with class options",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "name": "classes_multi",
+          "label": "Block Options (Multi)",
+          "description": "Style your block with class options",
+          "multi": true
+        },
+        {
+          "component": "text",
           "valueType": "string",
           "name": "text-simple",
           "label": "Text simple",
