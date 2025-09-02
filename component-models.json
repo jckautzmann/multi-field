@@ -221,51 +221,97 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "text",
+        "name": "text-simple",
+        "label": "Text simple",
+        "description": "Enter one or more texts"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text-multi",
         "label": "Text multi",
         "description": "Enter one or more texts",
         "multi": true
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "image2",
-        "label": "Image2 multi",
-        "description": "Enter one or more images",
-        "multi": true
+        "component": "richtext",
+        "name": "richtext-simple",
+        "value": "",
+        "label": "Richtext simple",
+        "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "richtext",
+        "name": "richtext-multi",
         "value": "",
         "label": "Richtext multi",
         "valueType": "string",
         "multi": true
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "image-link-simple",
+        "label": "Image link simple",
+        "description": "Enter one or more images"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "image-link-multi",
+        "label": "Image link multi",
+        "description": "Enter one or more images",
+        "multi": true
+      },
+      {
         "component": "reference",
         "valueType": "string",
-        "name": "image1",
-        "label": "Image1 multi",
+        "name": "reference-simple",
+        "label": "Reference simple",
+        "description": "Select one or more images"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "reference-multi",
+        "label": "Reference multi",
         "description": "Select one or more images",
         "multi": true
       },
       {
         "component": "aem-content",
-        "name": "aem-content",
-        "label": "Link multi",
+        "name": "aem-content-simple",
+        "label": "aem-content-simple"
+      },
+      {
+        "component": "aem-content",
+        "name": "aem-content-multi",
+        "label": "aem-content-multi",
         "multi": true
       },
       {
         "component": "date-time",
+        "label": "Date & Time simple",
+        "name": "date-simple",
+        "valueType": "date"
+      },
+      {
+        "component": "date-time",
         "label": "Date & Time multi",
-        "name": "dateMulti",
+        "name": "date-multi",
         "valueType": "date",
         "multi": true
       },
       {
         "component": "number",
-        "name": "numberMulti",
+        "name": "number-simple",
+        "label": "Number simple",
+        "valueType": "number",
+        "value": 0
+      },
+      {
+        "component": "number",
+        "name": "number-multi",
         "label": "Number Multi",
         "valueType": "number",
         "value": 0,
@@ -276,12 +322,6 @@
         "label": "AEM Tag Picker",
         "name": "tags",
         "valueType": "string"
-      },
-      {
-        "component": "date-time",
-        "label": "Date & Time",
-        "name": "date",
-        "valueType": "date"
       },
       {
         "component": "multiselect",
@@ -297,13 +337,6 @@
             "value": "lowlight"
           }
         ]
-      },
-      {
-        "component": "number",
-        "name": "number",
-        "label": "Number",
-        "valueType": "number",
-        "value": 0
       },
       {
         "component": "radio-group",
@@ -339,18 +372,16 @@
       },
       {
         "component": "container",
-        "label": "Image Container",
+        "label": "Image Container simple",
         "description": "Select one or more images + alt text",
-        "name": "imageContainer",
-        "multi": true,
+        "name": "container-simple",
         "fields": [
           {
             "component": "reference",
             "valueType": "string",
             "name": "image",
             "label": "Image",
-            "description": "Select Image",
-            "multi": true
+            "description": "Select Image"
           },
           {
             "component": "text",
@@ -363,17 +394,17 @@
       },
       {
         "component": "container",
-        "label": "Image Container 2",
+        "label": "Image Container multi",
         "description": "Select one or more images + alt text",
-        "name": "imageContainer2",
+        "name": "container-multi",
+        "multi": true,
         "fields": [
           {
             "component": "reference",
             "valueType": "string",
             "name": "image",
             "label": "Image",
-            "description": "Select Image",
-            "multi": true
+            "description": "Select Image"
           },
           {
             "component": "text",
