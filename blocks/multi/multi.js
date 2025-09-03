@@ -2,6 +2,7 @@ export default async function decorate(block) {
   
   
   // load the component-models.json file
+  /*
   const componentModels = await fetch(`${window.hlx.codeBasePath}/component-models.json`);
   if (componentModels.ok) {
     const data = await componentModels.json();
@@ -17,6 +18,8 @@ export default async function decorate(block) {
       row.insertBefore(div, row.firstChild);
     });
   }
+  
+   */
   
   // create block header with block options
   const div = document.createElement('div');
