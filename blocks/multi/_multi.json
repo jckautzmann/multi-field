@@ -184,14 +184,14 @@
             {
               "component": "reference",
               "valueType": "string",
-              "name": "image",
+              "name": "container-simple-image",
               "label": "Image",
               "description": "Select Image"
             },
             {
               "component": "text",
               "valueType": "string",
-              "name": "imageAlt",
+              "name": "container-simple-imageAlt",
               "label": "Alt",
               "value": ""
             }
@@ -207,14 +207,14 @@
             {
               "component": "reference",
               "valueType": "string",
-              "name": "image",
+              "name": "container-multi-image",
               "label": "Image",
               "description": "Select Image"
             },
             {
               "component": "text",
               "valueType": "string",
-              "name": "imageAlt",
+              "name": "container-multi-imageAlt",
               "label": "Alt",
               "value": ""
             }
