@@ -180,6 +180,27 @@
     ]
   },
   {
+    "id": "container",
+    "fields": [
+      {
+        "component": "container",
+        "label": "Container multi",
+        "description": "Select one or more text",
+        "name": "container-multi",
+        "multi": true,
+        "fields": [
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "text",
+            "label": "Text",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
