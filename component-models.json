@@ -507,10 +507,10 @@
             "value": ""
           },
           {
-            "component": "richttext",
+            "component": "richtext",
             "valueType": "string",
-            "name": "richttext",
-            "label": "richttext",
+            "name": "richtext",
+            "label": "richtext",
             "value": ""
           },
           {
@@ -530,10 +530,10 @@
             "multi": true
           },
           {
-            "component": "richttext",
+            "component": "richtext",
             "valueType": "string",
-            "name": "richttexts",
-            "label": "richttexts",
+            "name": "richtexts",
+            "label": "richtexts",
             "value": "",
             "multi": true
           }
