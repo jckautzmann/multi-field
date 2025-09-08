@@ -484,6 +484,60 @@
             "value": ""
           }
         ]
+      },
+      {
+        "component": "container",
+        "label": "Container multi 2",
+        "description": "Select one or more text",
+        "name": "multicontainer2",
+        "multi": true,
+        "fields": [
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "text",
+            "label": "Text",
+            "value": ""
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "link",
+            "label": "Link",
+            "value": ""
+          },
+          {
+            "component": "richttext",
+            "valueType": "string",
+            "name": "richttext",
+            "label": "richttext",
+            "value": ""
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "texts",
+            "label": "Texts",
+            "value": "",
+            "multi": true
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "links",
+            "label": "Links",
+            "value": "",
+            "multi": true
+          },
+          {
+            "component": "richttext",
+            "valueType": "string",
+            "name": "richttexts",
+            "label": "richttexts",
+            "value": "",
+            "multi": true
+          }
+        ]
       }
     ]
   }
