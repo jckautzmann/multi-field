@@ -36,6 +36,14 @@
       "id": "card",
       "fields": [
         {
+          "component": "text",
+          "valueType": "string",
+          "name": "text-multi",
+          "label": "Text multi",
+          "description": "Enter one or more texts",
+          "multi": true
+        },
+        {
           "component": "reference",
           "valueType": "string",
           "name": "image",
