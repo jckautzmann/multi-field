@@ -8,6 +8,9 @@
   {
     "id": "section",
     "components": [
+      "multicontainerwithgrouping",
+      "multicontainer",
+      "multicontainer2",
       "multi",
       "text",
       "image",
