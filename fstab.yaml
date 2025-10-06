@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p130360-e1560298.adobeaemcloud.com/bin/franklin.delivery/jckautzmann/multi-field/main"
+    url: "https://author-p130360-e1560298.adobeaemcloud.com/bin/franklin.delivery/jckautzmann/multi-field-jck/main"
     type: "markup"
     suffix: ".html"
