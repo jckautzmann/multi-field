@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/jck/:/",
-    "/content/jck/configuration:/.helix/config.json",
-    "/content/jck/metadata:/metadata.json"
+    "/content/multi-field-jck/:/",
+    "/content/multi-field-jck/configuration:/.helix/config.json",
+    "/content/multi-field-jck/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/jck/"
+    "/content/multi-field-jck/"
   ]
 }
